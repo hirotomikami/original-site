@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'maruji';
+  src: url('../fonts/webfont.otf') format('opentype');
+}
+
+body {
+  font-family: "Meiryo", serif;
+}
+
+.blur {
+  background: url(img/haikei.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.blur:before {
+  content: '';
+  background: inherit;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+}
+
+header .text h1 {
+  text-align: center;
+  line-height: 150px;
+  font-size: 90px;
+  color: snow;
+  padding-top: 20px;
+  z-index: 3;
+}
+
+text {
+  font-family:'Courier New', Courier, monospace;
+}
+
+.main-visual-text {
+  font-size: 30px;
+  color: snow;
+  text-align: center;
+  line-height: 250px;
+}
+
+.fa-plus {
+  font-size: 80px;
+  color: snow;
+  position: fixed;
+  top: 50px;
+  right: 40px;
+}
+
+.fa-magnifying-glass {
+  font-size: 80px;
+  color: snow;
+  position: fixed;
+  top: 60px;
+  left: 30px;
+}
+
+.blur2 {
+  background: url(img/haikei2.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  z-index: -2;
+  overflow: hidden;
+}
+
+.blur2:before {
+  content: '';
+  background: inherit;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -3;
+}
+
+main {
+  width: 100%;
+}
+
+.main-text-first {
+  font-size: 35px;
+  color: snow;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 150px;
+  width: 600px;
+  text-align: center;
+  margin: 80px auto 50px;
+  padding: 80px 20px;
+  line-break: auto;
+}
+
+.main-text-first-2 {
+  display: block;
+  margin-top: 0.5em;
+}
+
+.main-text-second {
+  font-size: 35px;
+  color: snow;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 150px;
+  width: 600px;
+  text-align: center;
+  margin: 80px auto 50px;
+  padding: 80px 20px;
+  line-break: auto;
+
+}
+
+.main-text-second-2 {
+  display: block;
+  margin-top: 0.5em;
+}
+
+.main-text-third {
+  font-size: 35px;
+  color: snow;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 150px;
+  width: 600px;
+  text-align: center;
+  margin: 80px auto 50px;
+  padding: 80px 20px;
+}
+
+.main-text-fourth {
+  font-size: 35px;
+  color: snow;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 150px;
+  width: 600px;
+  text-align: center;
+  margin: 80px auto 50px;
+  padding: 80px 20px;
+}
+
+.main-text-fourth-2 {
+  display: block;
+  margin-top: 0.5em;
+}
+
+.footer-text {
+  height: 120px;
+  line-height: 120px;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  background-color: whitesmoke;
+}
