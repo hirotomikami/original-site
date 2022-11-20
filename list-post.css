@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blur {
+  background: url(img/haikei.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.blur:before {
+  content: '';
+  background: inherit;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+}
+
+header .text h1 {
+  text-align: center;
+  line-height: 150px;
+  font-size: 90px;
+  color: snow;
+  padding-top: 20px;
+  z-index: 3;
+}
+
+.fa-plus {
+  font-size: 90px;
+  color: snow;
+  position: fixed;
+  top: 50px;
+  right: 40px;
+}
+
+.fa-magnifying-glass {
+  font-size: 80px;
+  color: snow;
+  position: fixed;
+  top: 60px;
+  left: 30px;
+}
+
+
+main {
+  width: 100%;
+  margin: 0px;
+  background-color: snow;
+  overflow: hidden;
+}
+
+.post-area {
+  width: 90%;
+  margin: 50px auto;
+  padding: 20px 0px;
+  border: solid 1px grey;
+  box-shadow: 2px 2px 2px 3px grey;
+  border-radius: 20px;
+}
+
+.photo-area {
+  width: 60%;
+  margin: 0px auto;
+}
+
+.photo {
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 30px;
+}
+
+.title-area {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.title {
+  width: 100%;
+  height: 30px;
+  margin: 20px auto 0px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.int-area {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+
+.int {
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  color: grey;
+}
+
+.footer-text {
+  height: 120px;
+  line-height: 120px;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  background-color: white;
+}
