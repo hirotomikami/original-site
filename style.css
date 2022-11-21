@@ -106,7 +106,7 @@ main {
   width: 100%;
 }
 
-.main-text-first {
+.main-text {
   font-size: 35px;
   color: snow;
   background-color: rgba(255,255,255,0.4);
@@ -118,52 +118,7 @@ main {
   line-break: auto;
 }
 
-.main-text-first-2 {
-  display: block;
-  margin-top: 0.5em;
-}
-
-.main-text-second {
-  font-size: 35px;
-  color: snow;
-  background-color: rgba(255,255,255,0.4);
-  border-radius: 150px;
-  width: 600px;
-  text-align: center;
-  margin: 80px auto 50px;
-  padding: 80px 20px;
-  line-break: auto;
-
-}
-
-.main-text-second-2 {
-  display: block;
-  margin-top: 0.5em;
-}
-
-.main-text-third {
-  font-size: 35px;
-  color: snow;
-  background-color: rgba(255,255,255,0.4);
-  border-radius: 150px;
-  width: 600px;
-  text-align: center;
-  margin: 80px auto 50px;
-  padding: 80px 20px;
-}
-
-.main-text-fourth {
-  font-size: 35px;
-  color: snow;
-  background-color: rgba(255,255,255,0.4);
-  border-radius: 150px;
-  width: 600px;
-  text-align: center;
-  margin: 80px auto 50px;
-  padding: 80px 20px;
-}
-
-.main-text-fourth-2 {
+.main-text-2 {
   display: block;
   margin-top: 0.5em;
 }
