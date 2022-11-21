@@ -94,6 +94,15 @@ main {
   font-size: 15px;
   margin: 0 auto;
   font-weight: bold;
+  box-shadow: 3px 2px 2px 2px grey;
+}
+
+.fa-xmark {
+  position: fixed;
+  top: 35px;
+  left: 20px;
+  color: snow;
+  font-size: 100px;
 }
 
 footer {

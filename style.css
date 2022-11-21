@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: 'maruji';
-  src: url('../fonts/webfont.otf') format('opentype');
-}
-
 body {
   font-family: "Meiryo", serif;
 }
